@@ -1,0 +1,9 @@
+{
+  "body": "{\"action\":\"delete_logs\",\"parameter\":\"group_proposta\"}",
+  "resource": "/{proxy+}",
+  "path": "/task",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "application/json"
+  }
+}
