@@ -6,5 +6,5 @@ import (
 )
 
 func InitRoutes(r *gin.RouterGroup, controller controller.TaskControllerInterface) {
-	r.POST("/task", controller.RunTask)
+	r.POST("/tasks", controller.RunTask)
 }
