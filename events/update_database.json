@@ -1,7 +1,7 @@
 {
-  "body": "{\"action\":\"update_database\",\"parameter\":\"update proposta set valor=1000 where nome-'groselha';\"}",
+  "body": "{\"action\":\"update_database\",\"parameter\":\"update proposta set valor=1000 where nome='groselha';\"}",
   "resource": "/{proxy+}",
-  "path": "/task",
+  "path": "/tasks",
   "httpMethod": "POST",
   "headers": {
     "Accept": "application/json"

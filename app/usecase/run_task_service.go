@@ -9,7 +9,7 @@ import (
 const DELETE string = "delete_logs"
 const UPDATE string = "update_database"
 
-func (t taskUseCase) Task(taskInterface domain.TaskDomainInterface) string {
+func (t *taskUseCase) Task(taskInterface domain.TaskDomainInterface) string {
 
 	taskStrategy := task.NewStrategy()
 	taskStrategy.Register(DELETE, task.DeleteLogs{})
